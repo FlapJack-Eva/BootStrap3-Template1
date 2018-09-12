@@ -1,0 +1,55 @@
+/* ----------------------------------[ Global ]------------------------------------------*/
+body {
+	background-color: #fefefe;
+	overflow-x: hidden;
+	height: 4000px;
+}
+
+/* --------------------[ Bootstrap ]--------------------------------*/
+/*NavBar*/
+.nav-link {padding: 10px 22px !important;}
+
+/*About*/
+section.about {background-color: #81ecec;padding: 70px; position: relative;}
+
+section.about::after {
+    content: '';
+    position: absolute;
+    bottom: -61px;
+    height: 116px;
+    left: -16px;
+    transform: rotate(-4deg);
+    width: 110%;
+    background-color: inherit;
+}
+
+/*features*/
+.features {
+	padding-top: 160px;
+}
+
+.features .feat {
+    padding: 30px 15px;
+    margin-bottom: 10px;
+}
+
+.features  h2 {
+	margin-bottom: 80px;
+}
+
+.features  h2 span {
+    color: #f39e28;
+    font-weight: 900;
+}
+
+.features  .feat i {
+    font-size: 3em;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.features .feat p {
+    line-height: 1.7;
+    color: #505050;
+}
+

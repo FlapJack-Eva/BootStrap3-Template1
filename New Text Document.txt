@@ -1,0 +1,11 @@
+container-fluid
+container
+row
+ol-md-5
+col-md-offset-3
+col-lg-push-5
+hidden/visiable
+clearfix
+img-responsive
+lead
+center-block
