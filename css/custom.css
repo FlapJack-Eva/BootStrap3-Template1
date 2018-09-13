@@ -38,6 +38,7 @@ section.about p {
 /*features*/
 .features {
 	padding-top: 160px;
+	padding-bottom: 160px;
 }
 
 .features .feat {
@@ -65,3 +66,41 @@ section.about p {
     color: #505050;
 }
 
+/*Testimonial*/
+section.testimonial {
+	color: white;
+	position: relative;
+	background: url('../images/img7.jpg') no-repeat center;
+}
+
+section.testimonial .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000a8;
+}
+
+section.testimonial .carousel-inner {
+	height: 500px;
+}
+
+section.testimonial .carousel-inner img {
+    padding-top: 130px;
+    padding-bottom: 50px;
+    margin-bottom: 22px;
+    width: 150px;
+    height: auto;
+	box-shadow: inset -3px -20px 0px 0px rgba(249, 249, 249, 0.66), -3px 20px 0px 0px rgb(26, 195, 180);    border-radius: 50%;
+    overflow: hidden;
+}
+
+section.testimonial .carousel-indicators li {
+	transition: all 1s;
+}
+
+section.testimonial .carousel-indicators .active {
+	width: 50%;
+	background-color: #1ac3b4;
+}
