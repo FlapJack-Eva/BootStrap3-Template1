@@ -152,3 +152,24 @@ section.our-team .person {
     margin-top: 50px;
     margin-bottom: 15px;
 }
+
+/*Subscribe*/
+section.subscribe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.subscribe form {
+    width: 70%;
+    margin: auto;
+}
+
+section.subscribe form .form-control {
+    width: 80%;
+    border-radius: 0;
+}
+
+section.subscribe form button {
+    width:20%;
+    border-radius: 0;
+}
