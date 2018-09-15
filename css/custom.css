@@ -43,7 +43,7 @@ section.about p {
 /*features*/
 .features {
 	padding-top: 160px;
-	padding-bottom: 160px;
+	padding-bottom: 120px;
 }
 
 .features .feat {
@@ -72,6 +72,7 @@ section.testimonial {
 	color: white;
 	position: relative;
 	background: url('../images/img7.jpg') no-repeat center;
+    background-size: cover;
 }
 
 section.testimonial .overlay {
@@ -108,7 +109,7 @@ section.testimonial .carousel-indicators .active {
 
 /*Price*/
 section.price {
-	padding-top: 200px;
+	padding-top: 50px;
 }
 
 section.price h2 {
@@ -116,35 +117,34 @@ section.price h2 {
 }
 
 section.price .plan {
-    background-color: #1ac3b4;
+    color: black;
+    border: 2px solid #1ac3b4;
     padding: 15px;
-    color: white;
     font-size: 26px;
     box-shadow: -3px -1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 15px;
 }
 
 section.price .plan h3 {
-    font-size: 2.75rem;
-    margin-bottom: 40px;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 section.price ul {
-	line-height: 200%;
+	line-height: 180%;
 }
 
 /*our-team*/
 section.our-team {
     color: white;
-    margin-top: 150px;
-    min-height: 600px;
+    margin-top: 100px;
     background: url('../images/gif1.gif') no-repeat center center fixed;
+    background-size: cover;
 }
 
 section.our-team .overlay {
     padding-top: 50px;
-    width: 100%;
-    min-height: 600px;
+    padding-bottom: 70px;
     background: rgba(2, 2, 2, 0.8);
 }
 
