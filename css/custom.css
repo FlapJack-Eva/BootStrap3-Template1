@@ -2,7 +2,7 @@
 body {
 	background-color: #fefefe;
 	overflow-x: hidden;
-	height: 4000px;
+	height: 6000px;
 }
 
 span.maincolor {
@@ -131,4 +131,24 @@ section.price .plan h3 {
 
 section.price ul {
 	line-height: 200%;
+}
+
+/*our-team*/
+section.our-team {
+    color: white;
+    margin-top: 150px;
+    min-height: 600px;
+    background: url('../images/gif1.gif') no-repeat center center fixed;
+}
+
+section.our-team .overlay {
+    padding-top: 50px;
+    width: 100%;
+    min-height: 600px;
+    background: rgba(2, 2, 2, 0.8);
+}
+
+section.our-team .person {
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
