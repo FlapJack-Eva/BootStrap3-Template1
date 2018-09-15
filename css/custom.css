@@ -173,3 +173,33 @@ section.subscribe form button {
     width:20%;
     border-radius: 0;
 }
+
+/*Statistics*/
+section.statistics {
+    margin-top: 50px;
+    background: url('../images/img8.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+section.statistics .data {
+    background: rgba(2, 2, 2, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.statistics h2 {
+    margin-bottom: 50px;
+}
+
+section.statistics .stats {
+    margin-bottom: 15px;
+}
+
+section.statistics .stats p {
+    padding-top: 10px;
+    font-weight: 500;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 31px;
+}
