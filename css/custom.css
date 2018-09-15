@@ -203,3 +203,19 @@ section.statistics .stats p {
     margin: 0;
     font-size: 31px;
 }
+
+/*Our-Skills*/
+section.skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.skills h2 {
+    margin-bottom: 50px;
+}
+
+section.skills .skills-progress .progress {
+
+    margin-bottom: 20px;
+}
+
