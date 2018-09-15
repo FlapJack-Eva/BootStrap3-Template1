@@ -257,9 +257,29 @@ section.contact textarea:focus {
     border-bottom: 1px solid white;
 }
 
-
-
 section.contact textarea {
     height: 93px;
+}
+
+/*Footer*/
+section.footer {
+    color:white;
+    background:#5f5e5e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section.footer h2 {
+    margin:20px 0;
+}
+
+section.footer .three-colu {
+    overflow:hidden;
+}
+
+section.footer .three-colu li {
+    width:33.3333%;
+    float:left;
+    padding: 5px;
 }
 
